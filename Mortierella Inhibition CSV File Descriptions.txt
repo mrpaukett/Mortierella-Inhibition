@@ -1,0 +1,39 @@
+Mortierella Inhibition CSV File Descriptions
+
+*Isolate species: A = M. alpina ; E = M. elongata ; G = M. gamsii ; X = M. exigua ; F = F. solani
+**Note: Data from contaminated plates were not included in the analysis and account for missing data points. 
+
+********************
+InhibitionData
+********************
+Column 1: round = Experiment replication round
+Column 2: treat = Single culture control plate (C) or dual culture treatment plate (F)
+Column 3: org = Isolate species & number
+Column 4: rep = Plate replicate number within each experiment replication round
+Column 5: pgrow = Radial growth of F. solani on Day 11 (mm)
+Column 6: mgrow = Radial growth of Mortierella spp. on Day 11 (mm)
+Column 7: catorg = Identifier used in analysis that combines treatment (1st letter) & isolate information (All other characters = Isolate species & number)
+            
+       
+********************
+TempData
+********************
+Column 1: organism = Isolate species & number
+Column 2: temp = Incubator set at 5, 15, or 25 degrees Celsius 
+Column 3: replicate = Plate replicate number within each experiment replication round
+Column 4: measurement = Diameter growth (mm), excluding 5 mm plug
+Column 5: round = Experiment replication round
+Column 6: treat = Temperature treatment plate (T1 = 5 ; T2 = 15) or control plate (C = 25)
+Column 7: catorg = Identifier used in analysis that combines temperature treatment (#) & isolate species (Letter)
+
+
+*****************
+FungicideData
+Note: Analysis was done on the seven individual files, which follow the same spreadsheet setup. Individual files are named by isolate species & number.
+*****************
+Column 1: Isolate = Isolate species & number
+Column 2: Treat = Fungicide treatment plate (Intego ; Allegiance ; Ridomil) or control plate (Control = No fungicide)
+Column 3: Rep = Plate replicate number within each experiment replication round
+Column 4: Conc = Fungicide concentration of control (Control = 0) and treatment plates (Intego = I ; Allegiance = A ; Ridomil = R at T1 = 10X ; T2 = 100X ; T3 = 1000X)
+Column 5: GRate = Growth rate (mm/day)
+Column 6: Catorg = Identifier used in analysis that combines treatment/control (1st letter, C = Control), isolate information (All other characters before _ indicate isolate # & species), & concentration (# after _ ; 1 = 10x ; 2 = 100x ; 3 = 1000x)
